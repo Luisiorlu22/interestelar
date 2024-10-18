@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-image: url("https://th.bing.com/th/id/R.09534988bd065d37cfa3d5af3cdfd0ce?rik=lV54XstGff0ISg&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fb%2f3%2fa%2f20040.jpg&ehk=18UuASRJNEsh0YS9mH6TzoQSJpdMh1b5vrW0WwC2fMY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(19, 18, 18, 0.7);
+}
+
+/* Fondo y estilo de los títulos h2 del acordeón */
+.accordion-header h2 {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.accordion-button {
+    background-color: #b653d4;
+    color: white;
+    border: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color:#b653d4 ;
+}
+
+.accordion-button:hover {
+    background-color: #c74dff;
+}
+
+.accordion-body {
+    background-color: #fff;
+    color: #000000;
+    padding: 20px;
+}
+/* Estilos personalizados para los botones */
+.btn-primary {
+    background-color: #8B008B; 
+    border-color: #8B008B;
+}
+
+.btn-success {
+    background-color: #00BFFF;
+    border-color: #00BFFF;
+}
+
+.btn-danger {
+    background-color: #FF4500; 
+    border-color: #FF4500;
+}
+
+.btn-primary:hover {
+    background-color: #9400D3;
+    border-color: #9400D3;
+}
+
+.btn-success:hover {
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+}
+
+.btn-danger:hover {
+    background-color: #FF6347;
+    border-color: #FF6347;
+}
+
